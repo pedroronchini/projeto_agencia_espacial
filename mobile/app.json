@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "mobile",
+    "name": "MSA",
     "slug": "mobile",
     "platforms": [
       "ios",
@@ -13,7 +13,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#319CFF"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,6 +23,10 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.msa.msa",
+      "versionCode": 1
     }
   }
 }
